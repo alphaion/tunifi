@@ -1,0 +1,129 @@
+@font-face {
+  font-family: "Raleway-Semibold";
+  src: url("../assets/fonts/Raleway/static/Raleway-SemiBold.ttf");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #F7F5FF;
+}
+
+.layer-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ffffff;
+  width: 264px;
+  height: 64px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.logo .brand-name {
+  font-family: "Raleway-Semibold";
+  font-size: 24px;
+  color: #4914FF;
+}
+
+.search-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 450px;
+  height: 64px;
+  background-color: #ffffff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.search-bar img {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+.search-bar .search {
+  font-size: 16px;
+  color: #11004D;
+  font-family: "Raleway-Semibold";
+  opacity: 0.4;
+  border: 0;
+  padding: 0.8em;
+  width: 100%;
+}
+
+.filter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 64px;
+  height: 64px;
+  background-color: #ffffff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.filter img {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.nav-bar {
+  width: 264px;
+  height: 636px;
+  background-color: #ffffff;
+}
+
+.btn {
+  width: 264px;
+  height: 64px;
+  font-family: "Raleway-Semibold";
+  font-size: 20px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-top: 18px;
+  margin-bottom: 0.6em;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #4914FF;
+  color: #ffffff;
+  border: 1px solid #4914FF;
+}
+
+.btn-secondary {
+  color: #4914FF;
+  border: 1px solid #4914FF;
+}
+/*# sourceMappingURL=style.css.map */
